@@ -26,11 +26,12 @@ public class Fenetre extends JFrame implements ActionListener{
 		
 		
 		pan = new JPanel();
+		pan.setBackground(Color.BLUE);
 		pan.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 5));
-		pan.add(b1 = new JButton("b1"));
-		pan.add(b2 = new JButton("b2"));
-		pan.add(b3 = new JButton("b3"));
-		pan.add(b4 = new JButton("b4"));
+		pan.add(b1 = new JButton("SAVE"));
+		pan.add(b2 = new JButton("Nouveau Media"));
+		pan.add(b3 = new JButton("Nouveau Livre"));
+		pan.add(b4 = new JButton("Nouveau CD"));
 		
 		Container contenu = getContentPane();
 		contenu.add(pan, BorderLayout.WEST);
