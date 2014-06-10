@@ -42,13 +42,14 @@ public class TestInterface extends JPanel{
 			
 			c.fill=GridBagConstraints.BOTH;//on choisit donc de remplir au max horizontalement et verticalement 
 			
+			
 			//insets définir la marge entre les composant ex: new Insets(margeSupérieure, margeGauche, margeInférieur, margeDroite)
 			
 			c.insets = new Insets(5, 5, 5, 5);
 			
 			// ipady permet de savoir où on place le composant s'il n'occupe pas la totalité de l'espace disponnible 
 			
-			c.ipady=c.anchor = GridBagConstraints.CENTER;;
+			c.ipady=c.anchor = GridBagConstraints.CENTER;
 			
 			/* weightx définit le nombre de cases en abscisse */
 			c.weightx=3;
